@@ -1,0 +1,29 @@
+how to upload our file on github
+--------------------------------
+
+=>$ git init
+
+=>$ git add .     or  $ git add index.html 
+
+=>$ git commit -m "your code name"
+
+=> $ git remote add origin (your repositery url)       //example  => git remote add origin git@github.com:manish532/Ajax.git 
+
+=> $ git push origin master
+
+=> $ git push -f origin master   yow will get meassage in last Everything up-to-date
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+ when your project is succefully done yow will get meassage in last Everything up-to-date
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+// update origin url
+
+$ git remote set-url origin git@github.com:manish532/email.git
+
+git remote set-url origin https://github.com/manish532/Create-captcha.git
+
+  
