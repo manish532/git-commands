@@ -26,4 +26,17 @@ $ git remote set-url origin git@github.com:manish532/email.git
 
 git remote set-url origin https://github.com/manish532/Create-captcha.git
 
-  
+--------------------------------------------------------------------------------------------------------------------------------------
+
+=> download repositery , update and push again
+******************************************************************************* 
+git init 
+
+git remote add origin https://github.com/manish532/validate-form-by-laravel.git
+
+git pull origin master
+
+git commit -m "your data updated"
+
+git push -u origin master
+********************************************************************************
