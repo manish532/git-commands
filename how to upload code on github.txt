@@ -28,6 +28,8 @@ git remote set-url origin https://github.com/manish532/Create-captcha.git
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
+
+
 => download repositery , update and push again
 ******************************************************************************* 
 git init 
@@ -40,3 +42,33 @@ git commit -m "your data updated"
 
 git push -u origin master
 ********************************************************************************
+
+
+
+How to Generate a new SSH key
+----------------------------------------------------
+
+$ ssh-keygen -o -t rsa -C "your@email.com"
+
+hit enter 
+----------
+$ cat ~/.ssh/id_rsa.pub
+
+hit enter
+----------
+
+
+git clone git@github.com:testing/TestingApp.git
+
+cd TestingApp
+
+git pull
+
+
+$ git config user.name "your name"
+$ git config user.email "youremail@yourdomain.com"
+$ git config user.username "myusername"
+
+
+$ git config --list
+
