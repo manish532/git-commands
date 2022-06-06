@@ -77,3 +77,9 @@ $ git config user.username "myusername"
 
 $ git config --list
 
+--------------------------------------------------------------
+
+=> if changes happen by mistake in any other file
+
+$ git checkout pathname
+
