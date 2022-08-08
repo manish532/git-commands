@@ -1,1 +1,25 @@
 
+how to create ssh key
+--------------------------------
+open git base here OR in cmd
+
+Hit command =>  ssh-keygen
+
+=>open user folder 
+=>Select system name
+=>open hidden file
+=>.SSH
+=>id_rsa pub
+
+Copy ssh key and paste in bitbucket Add key 
+
+-------------------------------------------
+
+
+how to add ssh key
+-------------------------------------------
+1=> Click on Profile Icon  OR on account
+2=>Personal Sitting
+3=>SSH key
+4=>Click on Add key
+--------------------------------------------
