@@ -1,0 +1,5 @@
+how to create new branch and copy of current branch.
+-----------------------------------------------------------------
+git checkout -b create_new_branch_name current_branch_development
+
+Ex=> git checkout -b vendor_menu_mapping development
