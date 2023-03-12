@@ -1,5 +1,20 @@
-how to create new branch and copy of current branch.
------------------------------------------------------------------
-git checkout -b create_new_branch_name current_branch_development
+=>how to create new branch and copy of current branch.
+  -----------------------------------------------------------------
+  git checkout -b create_new_branch_name current_branch_development
+  Example=> git checkout -b vendor_menu_mapping development
+  
+******************************************************************  
+=>how to remove file if changes by mistake.
+  -----------------------------------------------------------------
+  git checkout <filePath>
+  Example=> git checkout routes/api.php
+  
+ ****************************************************************** 
+=>how to remove file changes after using git add. command
+  -----------------------------------------------------------------
+  git reset <filePath>
+  Example=> git reset routes/api.php  
+ ****************************************************************** 
+  
 
-Ex=> git checkout -b vendor_menu_mapping development
+
